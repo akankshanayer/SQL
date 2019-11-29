@@ -1,0 +1,58 @@
+INSERT INTO train VALUES (1, 'Go Train East');
+INSERT INTO train VALUES (2, 'Go Tarin West');
+INSERT INTO train VALUES (3, 'Go Train North');
+INSERT INTO train VALUES (4, 'Go Train South');
+INSERT INTO train VALUES (5, 'Go Train North East');
+INSERT INTO train VALUES (6, 'Go Tarin South West');
+INSERT INTO train VALUES (7, 'Go Train North West');
+INSERT INTO train VALUES (8, 'Go Train South West');
+
+INSERT INTO station VALUES (101,'Lambton');
+INSERT INTO station VALUES (102,'London');
+INSERT INTO station VALUES (103,'Toronto');
+INSERT INTO station VALUES (104,'Sarnia');
+INSERT INTO station VALUES (105,'Huron');
+INSERT INTO station VALUES (106,'Alberta');
+INSERT INTO station VALUES (107,'Kings');
+INSERT INTO station VALUES (108,'Oxford');
+INSERT INTO station VALUES (109,'Waterloo');
+INSERT INTO station VALUES (110,'Richmond');
+INSERT INTO station VALUES (111,'Windsor');
+INSERT INTO station VALUES (112,'Carleton');
+INSERT INTO station VALUES (113,'Ottawa');
+INSERT INTO station VALUES (114,'Paris');
+INSERT INTO station VALUES (115,'Niagara');
+INSERT INTO station VALUES (116,'Brampton');
+INSERT INTO station VALUES (117,'Mississauga');
+INSERT INTO station VALUES (118,'Montreal');
+INSERT INTO station VALUES (119,'Quebec');
+INSERT INTO station VALUES (120,'Manitoba');
+
+INSERT INTO train_schedule VALUES (1,'101', '16:20', '16:25', 201);
+INSERT INTO train_schedule VALUES (2,'102', '17:20', '17:25', 202);
+INSERT INTO train_schedule VALUES (3,'103', '18:20', '18:25', 203);
+INSERT INTO train_schedule VALUES (4,'104', '19:20', '19:25', 204);
+INSERT INTO train_schedule VALUES (5,'105', '20:20', '20:25', 205);
+INSERT INTO train_schedule VALUES (6,'106', '21:20', '21:25', 206);
+INSERT INTO train_schedule VALUES (7,'107', '1:20', '1:25', 207);
+INSERT INTO train_schedule VALUES (8,'108', '4:20', '4:25', 208);
+
+INSERT INTO passenger_booking VALUES (1001,'1', 'Mandeep Singh', '2019-01-11', 108, 101, 35, 4);
+INSERT INTO passenger_booking VALUES (1002,'1', 'Navneet Kaur', '2019-05-11', 107, 102, 65, 6);
+INSERT INTO passenger_booking VALUES (1003,'2', 'Nav Kaur', '2019-03-11', 106, 101, 7, 2);
+INSERT INTO passenger_booking VALUES (1004,'3', 'Vamsi', '2019-07-11', 108, 107, 36, 11);
+INSERT INTO passenger_booking VALUES (1005,'1', 'Akaknksha', '2019-06-11', 110, 101, 44, 9);
+INSERT INTO passenger_booking VALUES (1006,'2', 'Sahil', '2019-11-08', 108, 110, 3, 12);
+INSERT INTO passenger_booking VALUES (1007,'7', 'Rahul', '2019-11-01', 109, 118, 5, 5);
+INSERT INTO passenger_booking VALUES (1008,'1', 'Virat', '2019-10-10', 110, 103, 15, 6);
+INSERT INTO passenger_booking VALUES (1009,'8', 'Tonny', '2019-11-05', 108, 116, 17, 10);
+INSERT INTO passenger_booking VALUES (1010,'1', 'Sachin', '2019-10-30', 109, 113, 23, 1);
+
+INSERT INTO track VALUES (1001,'East Track', 'East');
+INSERT INTO track VALUES (1002,'West Track', 'West');
+INSERT INTO track VALUES (1003,'North Track', 'North');
+INSERT INTO track VALUES (1004,'South Track', 'South');
+INSERT INTO track VALUES (1005,'North East Track', 'North East');
+INSERT INTO track VALUES (1006,'North West Track', 'North West');
+INSERT INTO track VALUES (1007,'South East Track', 'South East');
+INSERT INTO track VALUES (1008,'South West Track', 'South West');
